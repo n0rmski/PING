@@ -16,7 +16,7 @@ These later versions will be updated as we find more alleles etc, and are recomm
 https://web.stanford.edu/~n0rmski/projectH/PING/2_SOS_BT2_KFF/
 
 3. Finally, we have ported the scripts into standalone R programs.
-The latest versions can be found at https://github.com/wesleymarin . These versions contain parameters optimized for 2x300bp MiSeq reads.
+The latest versions can be found at https://hollenbachlab.ucsf.edu/ping These versions contain parameters optimized for 2x300bp MiSeq reads.
 -PINGgc can be used with any fastq reads and presents the opportunity to set your own threshold values (explained in the manual).
 -PINGallele reads in the output from PINGgc, uses the presence/absence information to determine which genes to target for each sample, and incorporates the copy number information to determine the final allelic genotype.
 PING allele combines information from alignment (SOS) and virtual probes (subsets of KFF) to call the final genotypes.
