@@ -10,7 +10,7 @@ There are three levels of KIR genotyping software included in the other folders:
 These are the static, working and complete versions of PING that will not be changed
 https://web.stanford.edu/~n0rmski/projectH/PING/1_PING_scripts/
 
-2. As we moved to longer reads we updated all of the scripts and programs, and these are also included (e.g the BT2 versions).
+2. As we moved to longer reads we updated all of the scripts and programs, and these are also included (e.g the Bowtie2 versions).
 These later versions will be updated as we find more alleles etc, and are recommended for use over the older versions.
  -in these, the scripts used to generate vcf (SOS) remain separate from the algorithms that call the alleles (jSOS).
 https://web.stanford.edu/~n0rmski/projectH/PING/2_SOS_BT2_KFF/
