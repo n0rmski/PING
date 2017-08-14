@@ -1,5 +1,4 @@
-# PING
-These are the scripts and pipelines for calling KIR genotypes from NGS data; they form the components of PING (Pushing Immunogenetics to the Next Generation)
+# postPING
 
 Here are some very basic scripts for post PING processing -namely when you find new SNP alleles and want to validate them.
 
