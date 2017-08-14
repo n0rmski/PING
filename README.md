@@ -2,6 +2,8 @@
 These are the scripts and pipelines for calling KIR genotypes from NGS data; they form the components of PING (Pushing Immunogenetics to the Next Generation)
 
 The scripts for harvesting KIR specific reads are here: 
+They are for use with capture/enrichment runs
+Or you can search through whole genome bams (best to narrow down by coordinates to unmapped and KIR-mapped regions first..)
 
 If you use any of these please cite:
 
