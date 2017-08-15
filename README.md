@@ -2,6 +2,13 @@
 
 Here are some very basic scripts for post PING processing -namely when you find new SNP alleles and want to validate them.
 
+-KFF_RS is virtual SSOP. Use for; counting frequencies of rare alleles and also resolving ambiguities
+
+-MIRAallele and ViewAll are for aligning filtered reads to references for viewing with Staden or IGV
+
+-Phase_newSNPS extracts read plus it's pair for every read matching string -e.g. use for validating new SNP alleles
+
+
 If you use any of these please cite:
 
 Norman PJ, Hollenbach JA, Nemat-Gorgani N, Marin WM, Norberg SJ, Ashouri E, Jayaraman J, Wroblewski EE, Trowsdale J, Rajalingam R, Oksenberg JR, Chiaroni J, Guethlein LA, Traherne JA, Ronaghi M, Parham P. Defining KIR and HLA Class I Genotypes at Highest Resolution via High-Throughput Sequencing. American Journal of Human Genetics. 99 (2), 375–391. 2016
