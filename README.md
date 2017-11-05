@@ -1,29 +1,5 @@
 # PING
-These are the scripts and pipelines for calling KIR genotypes from NGS data; they form the components of PING (Pushing Immunogenetics to the Next Generation)
-
-The scripts for harvesting KIR specific reads are here:
-https://web.stanford.edu/~n0rmski/projectH/PING/0_harvestKIR_reads/
-
-There are four levels of KIR genotyping software included in the other folders:
-
-1. The scripts that were used to generate the allele calls from the IHWG cell lines, which are reported in the paper  (Supplementary Table S3)
-These are the static, working and complete versions of PING that will not be changed
-https://web.stanford.edu/~n0rmski/projectH/PING/1_PING_scripts/
-
-2. As we moved to longer reads we updated all of the scripts and programs, and these are also included (e.g the Bowtie2 versions).
-These later versions will be updated as we find more alleles etc, and are recommended for use over the older versions.
- -in these, the scripts used to generate vcf (SOS) remain separate from the algorithms that call the alleles (jSOS).
-https://web.stanford.edu/~n0rmski/projectH/PING/2_SOS_BT2_KFF/
-
-3. We ported the scripts into standalone R programs.
-The latest versions can be found at https://hollenbachlab.ucsf.edu/ping These versions contain parameters optimized for 2x300bp MiSeq reads.
--PINGgc can be used with any fastq reads and presents the opportunity to set your own threshold values (explained in the manual).
--PINGallele reads in the output from PINGgc, uses the presence/absence information to determine which genes to target for each sample, and incorporates the copy number information to determine the final allelic genotype.
-PING allele combines information from alignment (SOS) and virtual probes (subsets of KFF) to call the final genotypes.
-The full scale KFF can be used as backup for ambiguity resolution if needed, and remains unchanged from the version in folder 1.
-
-4. I added some very basic scripts for post PING processing -namely when you find new SNP alleles and want to validate them.
-They are in 2_postPING and newly-discovered sequences are in 3_newKIRalleles
+Here are sequences of alleles newly discovered using PING. These are all confirmed by re-amplification of source material. They are grouped by publication. The names will match those local names in the publication, but may since have been given official names by IPD. Once we have satisfied the IPD criteria (ie cloned/sequenced again, or found in homozygous) they are sent to them for allele names. 
 
 If you use any of these please cite:
 
