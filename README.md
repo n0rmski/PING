@@ -23,7 +23,7 @@ PING allele combines information from alignment (SOS) and virtual probes (subset
 The full scale KFF can be used as backup for ambiguity resolution if needed, and remains unchanged from the version in folder 1.
 
 4. I added some very basic scripts for post PING processing -namely when you find new SNP alleles and want to validate them.
-They are in 2_postPING
+They are in 2_postPING and newly-discovered sequences are in 3_newKIRalleles
 
 If you use any of these please cite:
 
